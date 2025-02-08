@@ -104,6 +104,13 @@
       .back-link:hover {
         background-color: #2980b9;
       }
+
+      pre {
+        overflow: auto;
+        background-color: #eee;
+        max-width: 100%;
+        padding: 1rem;
+      }
     </style>
   </head>
   <body>
@@ -113,6 +120,16 @@
     </header>
 
     <div class="container">
+      <pre><code class="language-html">
+        &lt;!-- Example code for above image --&gt;
+        &lt;script src="https://cdn.jsdelivr.net/gh/pablotheblink/WebComponents/ImgLazy/ImgLazy.js"&gt;&lt;/script&gt;
+        
+        &lt;img-lazy 
+          title="Developer 1" 
+          src="https://pablomsj.com/assets/img/developer-1.webp" 
+          alt="Developer working on code"&gt;
+        &lt;/img-lazy&gt;</code></pre>
+
       <div class="image-wrapper">
         <h2>Image 1 - Above the fold</h2>
         <p class="description">This image loads immediately as it's in the viewport:</p>
